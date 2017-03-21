@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Jim+Nightshade|Kaushan+Script');
+html { 
+  background: url(images/bgimage.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#quoteHeading {
+	position: absolute;
+	margin-top: 30px;
+	left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    color:white;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Kaushan Script', cursive;
+
+
+}
+#generateQuoteTextHere {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    font-family: 'Jim Nightshade', cursive;
+    font-size: 35px;
+    font-weight: 900;
+}
+ #generateQuoteWriter {
+ 	position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-65%);
+    font-family: 'Jim Nightshade', cursive;
+    font-size: 30px;
+    font-weight: 900;
+ }
+  #getQuote{
+ 	position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-80%);
+  	background-color: #6496c8;
+  	border: none;
+  	border-radius: 4px;
+  	box-shadow: 0 10px #27496d;
+  	color: white;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    font-size:100%;
+    font-family: 'Kaushan Script', cursive;
+  
+ }
+
+
+#getQuote:hover {
+  background-color: #417cb8
+}
