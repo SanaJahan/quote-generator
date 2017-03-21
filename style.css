@@ -41,8 +41,8 @@ html {
   #getQuote{
  	position: absolute;
     top: 80%;
-    left: 50%;
-    transform: translateX(-50%) translateY(-80%);
+    left: 70%;
+    transform: translateX(-80%) translateY(-80%);
   	background-color: #6496c8;
   	border: none;
   	border-radius: 4px;
@@ -51,10 +51,35 @@ html {
     text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
     font-size:100%;
     font-family: 'Kaushan Script', cursive;
+    padding: 10px 15px;
   
  }
 
 
 #getQuote:hover {
   background-color: #417cb8
+}
+
+#forTweet{
+    position: absolute;
+    top: 80%;
+    left: 30%;
+    transform: translateX(-40%) translateY(-80%);
+  	background-color: #6496c8;
+  	border: none;
+  	border-radius: 4px;
+  	box-shadow: 0 10px #27496d;
+  	color: white;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    font-size:100%;
+    font-family: 'Kaushan Script', cursive;
+    padding: 10px 15px;
+}
+#forTweet:hover {
+  background-color: #417cb8
+}
+
+.twitter-share-button{
+	text-decoration: none;
+	color: white;
 }
